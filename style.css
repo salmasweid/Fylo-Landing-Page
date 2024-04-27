@@ -1,0 +1,234 @@
+:root {
+    --clr-very-dark-blue: hsl(243, 87%, 12%);
+    --clr-desaturated-blue: hsl(238, 22%, 44%);
+
+    --clr-bright-blue: hsl(224, 93%, 58%);
+    --clr-moderate-cyan: hsl(170, 45%, 43%);
+
+    --clr-light-grayish-blue: hsl(240, 75%, 98%);
+    --clr-light-gray: hsl(0, 0%, 75%);
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.navigation {
+    padding: 5rem;
+    justify-content: space-between;
+}
+
+.nav_bar ul li {
+    padding-inline: 3rem;
+}
+
+.nav_bar a, h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: var(--clr-very-dark-blue);
+}
+
+.first_section {
+    padding: 4rem 5rem;
+}
+
+.introduction {
+    width: 80rem;
+    margin-block: auto;
+    padding-right: 4.5rem;
+}
+
+.illustration {
+    margin-block: auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+
+p {
+    padding-block: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--clr-very-dark-blue);
+}
+
+input {
+    width: 22rem;
+    margin-right: 1rem;
+    padding: .75rem;
+    border: 1px solid var(--clr-desaturated-blue);
+    border-radius: .2rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+button {
+    padding: .75rem 4rem;
+    background-color: var(--clr-bright-blue);
+    color: white;
+    border: 1px solid var(--clr-bright-blue);
+    border-radius: .2rem;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.second_section {
+    margin-top: 5rem;
+    padding: 5rem;
+    background-color: var(--clr-light-grayish-blue);
+}
+
+.information {
+    width: 80rem;
+    padding-right: 4rem;
+}
+
+h2 {
+    padding-bottom: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--clr-very-dark-blue);
+}
+
+.call_to_action {
+    width: fit-content;
+    padding-bottom: .2rem;
+    border-bottom: 1px solid var(--clr-moderate-cyan);
+}
+
+.call_to_action a {
+    margin-right: .5rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--clr-moderate-cyan);
+}
+
+.arrow {
+    width: 1.5rem;
+}
+
+.feedback {
+    width: 30rem;
+    padding: 2rem;
+    margin-block: 3rem;
+    background-color: white;
+    border-radius: .2rem;
+    box-shadow: 0 0 15px 0 var(--clr-light-gray);
+}
+
+.quotes {
+    width: 1.8rem;
+}
+
+.feedback p {
+    font-size: 1.2rem;
+}
+
+.profile_picture img {
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.profile_info p {
+    padding: 0 .8rem;
+    font-size: 1rem;
+}
+
+.profile_info p:first-of-type {
+    font-weight: bold;
+}
+
+.third_section {
+    padding: 5rem;
+    background-color: var(--clr-desaturated-blue);
+}
+
+h3 {
+    padding-bottom: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: var(--clr-light-grayish-blue);
+}
+
+.access {
+    width: 50rem;
+    padding-right: 10rem;
+}
+
+.access p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--clr-light-grayish-blue);
+}
+
+.registration {
+    padding-top: 2rem;
+    padding-left: 10rem;
+}
+
+.registration input {
+    width: 35rem;
+    padding: 1rem;
+    border-radius: .3rem;
+}
+
+.registration button {
+    margin-top: 1rem;
+}
+
+.footer {
+    padding: 5rem;
+    background-color: var(--clr-very-dark-blue);
+}
+
+.contact_info {
+    padding-top: 2rem;
+}
+
+.contact_info img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.contact_info p {
+    padding-top: 0;
+    padding-left: 1rem;
+    color: var(--clr-light-gray);
+}
+
+.footer_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links ul li {
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+.links a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: var(--clr-light-gray);
+}
